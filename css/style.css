@@ -46,11 +46,11 @@ h1{
 .search{
     margin: 30px 30px 30px 0;
 }
-li{
+.home{
    list-style: none;
    display: inline-block;
 }
-li a{
+.home a{
     color: white;
     text-transform: uppercase;
     transition: .3s linear;
@@ -60,9 +60,13 @@ li a{
     border-radius: 10px;
     cursor: pointer;
 }
-li a:hover{
+.home a:hover{
     background-color: blueviolet;
     color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
 }
 form{
     width: 450px;
@@ -129,8 +133,7 @@ form{
     text-align: center;
     padding: 30px;
     border-radius: 20px;
-   
-    
+  
 }
 .two{
     border: 2px solid gray;
@@ -139,10 +142,20 @@ form{
     border-radius: 20px;
     padding: 30px;
 }
+
 .foot{
     display: flex;
     justify-content: center;
     gap: 70px;
     background-color: rgb(40, 10, 68);
+    color: white;
+}
+.ql{
+    color: white;
+    transition: .3s linear;
+
+}
+.ql:hover{
+    text-decoration: underline;
     color: white;
 }
