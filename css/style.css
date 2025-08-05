@@ -3,7 +3,7 @@ body{
 }
 .landing{
     display: flex;
-    height: 74vh;
+    height: 85vh;
     flex-direction: column;
     background-image: url(../Photos/building1.jpg);
     background-position: center;
@@ -12,13 +12,15 @@ body{
     padding: 50px;
     
 }
+
 header{
     background-color: white;
     padding: 0px;
-    border-radius: 20px;
-    position: sticky;
-    top: o;
-   position: sticky;
+    top: 0;
+    position: relative;
+
+   
+   
     
 }
 .logo{
@@ -28,18 +30,25 @@ header{
     font-size: 25px;
    
 }
+.ha{
+   align-items: center;
+   margin: 30px;
+
+
+}
 
 .navlinks{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    height: 70px;
 }
-h1{
+.find{
     font-size: 60px;
     color: white;
     margin-block-start: 0;
     margin-block-end: 0;
+    padding: 40px 40px 30px 0;
 }
 .Discover{
     font-size: 28px;
@@ -153,4 +162,51 @@ form{
     gap: 70px;
     background-color: rgb(40, 10, 68);
     color: white;
+}
+/*hotels
+*/
+.container{
+    border: 1px ;
+    margin: 0 auto;
+    gap: 80px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+   
+}
+.boot{
+    border: 2px solid gray;
+    border-radius: 20px;
+    
+    
+}
+
+.imgsection{
+    position: relative;
+}
+.imgsection img{
+    width: 350px;
+    height: 300px;
+    display: block;
+    border-radius: 18px 18px 0 0;
+}
+.topwords{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    color: white;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+   
+}
+
+/*details*/
+.photo{
+    display: flex;
 }
