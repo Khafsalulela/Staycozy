@@ -8,6 +8,7 @@ body{
     background-image: url(../Photos/building1.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    
     background-size: cover;
     padding: 50px;
     
@@ -19,9 +20,6 @@ header{
     top: 0;
     position: relative;
 
-   
-   
-    
 }
 .logo{
     color: blueviolet;
@@ -72,6 +70,7 @@ header{
     margin-right: 30px;
     border-radius: 10px;
     cursor: pointer;
+    border: 1px solid white;
 }
 .home a:hover{
     background-color: blueviolet;
@@ -130,6 +129,7 @@ form{
     display: flex;
     justify-content: center;
     gap: 70px;
+   
   
 }
 .bprice{
@@ -138,7 +138,9 @@ form{
     text-align: center;
     padding: 30px;
     border-radius: 20px;
+    
 }
+
 .tproperties{
     border: 2px solid gray;
     width: 300px;
@@ -207,6 +209,31 @@ form{
 }
 
 /*details*/
-.photo{
-    display: flex;
+
+.photo {
+      display: flex;
+      max-width: 800px;
+      height: 310px;
+      gap: 10px;
+}
+
+.bigphoto {
+      
+      width: 500px;
+      height: 250px;
+    }
+
+.smallphoto {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+} 
+i{
+    color: black;
+    font-size: 40px;
+}
+
+@media screen and (min-width: 481px){
+     
 }
